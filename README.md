@@ -55,16 +55,16 @@ a s d f g 1 2 3 4 5 ESC
 
 write_file function:
 
-    This function writes the keystrokes to the logging.txt file, formatting them for readability (removing quotes and adding a space after each keystroke).
+This function writes the keystrokes to the logging.txt file, formatting them for readability (removing quotes and adding a space after each keystroke).
 
 on_release function:
 
-    This function is triggered whenever a key is released.
-    If the Esc key is pressed, the keylogger stops listening.
+This function is triggered whenever a key is released.
+If the Esc key is pressed, the keylogger stops listening.
 
 Listener:
 
-    The Listener listens for both keypress and key release events. It is initialized with on_press and on_release functions and starts capturing input.
+The Listener listens for both keypress and key release events. It is initialized with on_press and on_release functions and starts capturing input.
 
 
 
