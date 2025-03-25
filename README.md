@@ -26,6 +26,18 @@ pip install pynput
 
    ### 5.  When the ```esc``` key is pressed, the listener stops, and the program exits.
 
+   ## Technologies Used:
+
+   - ### Python (programming language)
+
+   - ### pynput (library for capturing keyboard input)
+
+   - ### pyfiglet (library for generating ASCII art)
+
+   - ### colorama (library for coloring terminal text)
+
+   - ### File I/O (saving keystrokes to a file)
+
 ## Key Logging
 
 ### The keystrokes are logged with spaces separating each keystroke. Special keys (like ```esc```, ```shift```, etc.) are recorded in a readable format.
