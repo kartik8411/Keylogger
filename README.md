@@ -1,4 +1,4 @@
-![logo](https://github.com/kartik8411/Keylogger/blob/main/images1.jpeg)
+![logo](https://github.com/kartik8411/Keylogger/blob/main/image.png)
 # Keylogger Using Pynput Module
 ### This is a simple keylogger built using the pynput module in Python. The keylogger listens to the user's keyboard activity and logs every keypress into a file. It captures both alphanumeric and special keys. The captured keys are written to a file called logging.txt.
 
